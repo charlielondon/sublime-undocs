@@ -28,6 +28,7 @@ You can define scopes in several ways:
 
 * Adding individual directories (Unix-style paths, even on Windows)
 * Adding/excluding files based on wildcards
+* Adding directories with wildcards ``path/to/dir/*.python``
 * Adding symbolic locations (``<open folders>``, ``<open files>``...)
 
 It is also possible to combine these filters using commas; for example:
